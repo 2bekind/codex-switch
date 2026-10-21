@@ -34,6 +34,7 @@ Screenshots use demo accounts.
 - Get Windows notifications when limits recover or a paid subscription ends.
 - Keep a name and note for each account.
 - Hide email addresses with one click.
+- Open profile avatars with a smooth zoom and frosted background.
 - OLED black interface, profile avatars and SF Pro when installed.
 
 ## Usage
@@ -42,6 +43,8 @@ Screenshots use demo accounts.
 2. Click **Добавить** (Add) and sign in to the account you want to save.
 3. Click **Переключить** (Switch) next to an account, then confirm the Codex restart. Finish running tasks before switching.
 4. Click the pencil to edit an account's name or note. Click the eye to hide its email.
+
+Click an avatar to view it. Click outside the image or press **Escape** to close it.
 
 Closing the window sends Codex Switch to the system tray. Click its tray icon or launch the EXE again to reopen it. Right-click the tray icon and choose **Выйти** (Exit) to quit completely. Limits and notifications keep working in the tray.
 
