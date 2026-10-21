@@ -43,13 +43,15 @@ Screenshots use demo accounts.
 3. Click **Переключить** (Switch) next to an account, then confirm the Codex restart. Finish running tasks before switching.
 4. Click the pencil to edit an account's name or note. Click the eye to hide its email.
 
+Closing the window sends Codex Switch to the system tray. Click its tray icon or launch the EXE again to reopen it. Right-click the tray icon and choose **Выйти** (Exit) to quit completely. Limits and notifications keep working in the tray.
+
 The current Codex account is saved on first launch. **Ctrl+R** refreshes account data and limits. **Вернуть предыдущий** restores the previous sign-in.
 
 Requires Windows 10/11 x64, .NET Framework 4.8 and the Microsoft Store version of Codex signed in through ChatGPT. The interface is currently in Russian. SF Pro falls back to Segoe UI when unavailable.
 
 ## Notifications
 
-Keep Codex Switch open or minimized to receive Windows notifications for:
+Codex Switch keeps running in the system tray when you close its window. Windows notifications continue for:
 
 - Five-hour limit recovery.
 - Weekly limit recovery.
