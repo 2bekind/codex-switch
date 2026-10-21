@@ -36,6 +36,7 @@ Screenshots use demo accounts.
 - Hide email addresses with one click.
 - Open profile avatars with a smooth zoom and frosted background.
 - OLED black interface, profile avatars and SF Pro when installed.
+- Interface icons from coolicons.
 
 ## Usage
 
@@ -75,5 +76,7 @@ This repository contains the Windows executable and demo images. It includes no 
 The download counter counts release assets. Downloads from the EXE link in the repository are not included.
 
 ---
+
+Interface icons: [coolicons by Kryston Schwarze](https://github.com/krystonschwarze/coolicons), licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Adapted to WPF vector drawing, resized and recolored; the subscription badge uses a filled background.
 
 Codex Switch is an independent utility and is not affiliated with OpenAI.
