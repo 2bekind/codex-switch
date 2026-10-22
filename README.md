@@ -17,11 +17,11 @@ Simple account switcher for Codex
 <table>
   <tr>
     <td align="center"><img src="Preview.png" width="350" alt="Account list with subscription days, remaining Codex limits and reset times"></td>
-    <td align="center"><img src="assets/Notes.png" width="350" alt="Account name and note editor"></td>
+    <td align="center"><img src="assets/Light.png" width="350" alt="Light theme with demo accounts"></td>
   </tr>
   <tr>
     <td align="center">Accounts & limits</td>
-    <td align="center">Names & notes</td>
+    <td align="center">Light theme</td>
   </tr>
 </table>
 
@@ -35,7 +35,10 @@ Screenshots use demo accounts.
 - Keep a name and note for each account.
 - Hide email addresses with one click.
 - Open profile avatars with a smooth zoom and frosted background.
-- OLED black interface, profile avatars and SF Pro when installed.
+- OLED black and light themes with a circular transition.
+- Russian and English interface, initially selected from Windows settings.
+- Smooth scrolling and language transitions.
+- Profile avatars and SF Pro when installed.
 - Interface icons from coolicons.
 
 ## Usage
@@ -51,7 +54,7 @@ Closing the window sends Codex Switch to the system tray. Click its tray icon or
 
 The current Codex account is saved on first launch. **Ctrl+R** refreshes account data and limits. **Вернуть предыдущий** restores the previous sign-in.
 
-Requires Windows 10/11 x64, .NET Framework 4.8 and the Microsoft Store version of Codex signed in through ChatGPT. The interface is currently in Russian. SF Pro falls back to Segoe UI when unavailable.
+Requires Windows 10/11 x64, .NET Framework 4.8 and the Microsoft Store version of Codex signed in through ChatGPT. The interface supports Russian and English. Click the globe beside the app title to change the language. Click the moon or sun beside Accounts to change the theme. SF Pro falls back to Segoe UI when unavailable.
 
 ## Notifications
 
