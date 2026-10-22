@@ -6,7 +6,7 @@
 
 Simple account switcher for Codex
 
-[![Latest release](https://img.shields.io/github/v/release/2bekind/codex-switch?style=flat-square&color=ffffff&labelColor=161616)](https://github.com/2bekind/codex-switch/releases/latest) ![Windows](https://img.shields.io/badge/Windows-10%20%2F%2011-ffffff?style=flat-square&labelColor=161616) ![Architecture](https://img.shields.io/badge/architecture-x64-ffffff?style=flat-square&labelColor=161616)
+[![Latest release](https://img.shields.io/github/v/release/2bekind/codex-switch?style=flat-square&color=ffffff&labelColor=161616)](https://github.com/2bekind/codex-switch/releases/latest) ![Windows](https://img.shields.io/badge/Windows-10%20%2F%2011-ffffff?style=flat-square&labelColor=161616) ![Architecture](https://img.shields.io/badge/architecture-x64-ffffff?style=flat-square&labelColor=161616) [![Boosty](https://img.shields.io/badge/Boosty-support-F15F2C?style=flat-square&labelColor=161616)](https://boosty.to/swixhub)
 
 **[Download EXE](https://github.com/2bekind/codex-switch/raw/refs/heads/main/Codex%20Switch.exe)** · [Releases](https://github.com/2bekind/codex-switch/releases) · [Usage](#usage)
 
@@ -83,3 +83,15 @@ The download counter counts release assets. Downloads from the EXE link in the r
 Interface icons: [coolicons by Kryston Schwarze](https://github.com/krystonschwarze/coolicons), licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Adapted to WPF vector drawing, resized and recolored; the subscription badge uses a filled background.
 
 Codex Switch is an independent utility and is not affiliated with OpenAI.
+
+---
+
+<div align="center">
+
+### Support Codex Switch
+
+Support development on Boosty.
+
+<a href="https://boosty.to/swixhub"><img src="https://img.shields.io/badge/Support_on_Boosty-F15F2C?style=for-the-badge&logoColor=white" alt="Support Codex Switch on Boosty" height="36"></a>
+
+</div>
