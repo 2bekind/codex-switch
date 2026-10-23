@@ -6,9 +6,9 @@
 
 Simple account switcher for Codex
 
-[![Latest release](https://img.shields.io/github/v/release/2bekind/codex-switch?style=flat-square&color=ffffff&labelColor=161616)](https://github.com/2bekind/codex-switch/releases/latest) ![Windows](https://img.shields.io/badge/Windows-10%20%2F%2011-ffffff?style=flat-square&labelColor=161616) ![Architecture](https://img.shields.io/badge/builds-x64%20%2B%20x86-ffffff?style=flat-square&labelColor=161616) [![Boosty](https://img.shields.io/badge/Boosty-support-F15F2C?style=flat-square&labelColor=161616)](https://boosty.to/swixhub)
+[![Latest release](https://img.shields.io/github/v/release/2bekind/codex-switch?style=flat-square&color=ffffff&labelColor=161616)](https://github.com/2bekind/codex-switch/releases/latest) ![Windows](https://img.shields.io/badge/Windows-x64%20%2F%20x86-ffffff?style=flat-square&labelColor=161616) ![macOS](https://img.shields.io/badge/macOS-Apple%20Silicon%20%2F%20Intel-ffffff?style=flat-square&labelColor=161616) [![Boosty](https://img.shields.io/badge/Boosty-support-F15F2C?style=flat-square&labelColor=161616)](https://boosty.to/swixhub)
 
-**[Download x64](https://github.com/2bekind/codex-switch/releases/latest/download/Codex.Switch.exe)** · **[Download x86](https://github.com/2bekind/codex-switch/releases/latest/download/Codex.Switch.x86.exe)** · [Releases](https://github.com/2bekind/codex-switch/releases) · [Usage](#usage)
+**[Windows x64](https://github.com/2bekind/codex-switch/releases/latest/download/Codex.Switch.exe)** · **[Windows x86](https://github.com/2bekind/codex-switch/releases/latest/download/Codex.Switch.x86.exe)** · **[macOS](https://github.com/2bekind/codex-switch/releases/latest/download/Codex.Switch.macOS.dmg)** · [All downloads](https://github.com/2bekind/codex-switch/releases/latest)
 
 </div>
 
@@ -27,11 +27,15 @@ Simple account switcher for Codex
 
 Screenshots use demo accounts.
 
+### macOS
+
+<img src="assets/Mac.png" width="440" alt="Codex Switch on macOS with demo accounts">
+
 ## Features
 
 - Switch between saved Codex accounts.
 - See remaining limits, reset times and subscription days.
-- Get Windows notifications when limits recover or a paid subscription ends.
+- Get system notifications when limits recover or a paid subscription ends.
 - Keep a name and note for each account.
 - Hide email addresses with one click.
 - Open profile avatars with a smooth zoom and frosted background.
@@ -41,28 +45,30 @@ Screenshots use demo accounts.
 - Profile avatars and SF Pro when installed.
 - Interface icons from coolicons.
 - Settings for startup, notifications, appearance and account recovery.
-- Optional launch at Windows sign-in, including a quiet start in the tray.
+- Optional launch at login, including a quiet start in the tray or menu bar.
 
 ## Usage
 
-1. Download **Codex Switch.exe** (x64, recommended) or **Codex Switch x86.exe** and run it. No installer is needed.
+1. On Windows, download **Codex Switch.exe** (x64) or **Codex Switch x86.exe** and run it. On Mac, open the DMG and drag **Codex Switch** into **Applications**.
 2. Click **Добавить** (Add) and sign in to the account you want to save.
 3. Click **Переключить** (Switch) next to an account, then confirm the Codex restart. Finish running tasks before switching.
 4. Click the pencil to edit an account's name or note. Click the eye to hide its email.
 
 Click an avatar to view it. Click outside the image or press **Escape** to close it.
 
-Closing the window sends Codex Switch to the system tray. Click its tray icon or launch the EXE again to reopen it. Right-click the tray icon and choose **Выйти** (Exit) to quit completely. Limits and notifications keep working in the tray.
+Closing the window sends Codex Switch to the system tray on Windows or the menu bar on Mac. Click its icon to reopen it. Right-click the icon and choose **Exit** or **Quit** to stop the app completely. Limits and notifications keep working in the background.
 
 The current Codex account is saved on first launch. **Ctrl+R** refreshes account data and limits. Open the gear at the bottom right for settings. **Other → Restore previous** restores the previous sign-in; **Data** opens the local data folder. **System** controls startup and notifications, and **Appearance** changes the theme.
 
-Requires Windows 10/11 x64, .NET Framework 4.8 and the Microsoft Store version of Codex signed in through ChatGPT. The interface supports Russian and English. Click the globe beside the app title to change the language. Click the moon or sun beside Accounts to change the theme. SF Pro falls back to Segoe UI when unavailable.
+**Windows:** Windows 10/11 x64, .NET Framework 4.8 and the Microsoft Store version of Codex, signed in through ChatGPT. Both switcher builds are tested on Windows x64.
 
-Both x64 and x86 executables are tested on 64-bit Windows. The x86 download is an alternative build of the switcher; it does not add support for running Codex on 32-bit Windows.
+**Mac:** macOS 13 or later and Codex installed in Applications. One universal download works on Apple Silicon and Intel. The Mac build is not notarized. If macOS blocks the first launch, use **System Settings → Privacy & Security → Open Anyway**. [Apple's instructions](https://support.apple.com/en-us/102445).
+
+The interface supports Russian and English. Click the globe beside the title to change the language, or the moon and sun beside Accounts to change the theme.
 
 ## Notifications
 
-Codex Switch keeps running in the system tray when you close its window. Windows notifications continue for:
+Codex Switch keeps running when you close its window. Notifications continue for:
 
 - Five-hour limit recovery.
 - Weekly limit recovery.
@@ -74,9 +80,9 @@ Choose which notifications to receive in **Settings → System**, or turn them o
 
 ## Local data
 
-Saved sign-ins are encrypted with Windows DPAPI for the current Windows user and stored in `%LOCALAPPDATA%\CodexSwitch`. Account profiles and limits are requested using each saved sign-in. Account names and notes stay in the local account list.
+On Windows, saved sign-ins are encrypted with DPAPI and stored in `%LOCALAPPDATA%\CodexSwitch`. On Mac, saved sign-ins use the macOS Keychain; names, notes and cached avatars are stored in `~/Library/Application Support/Codex Switch`. Account profiles and limits are requested using each saved sign-in.
 
-This repository contains the Windows executable and demo images. It includes no saved accounts, tokens or personal profile data. Source code is not published here.
+Downloads contain no saved accounts, tokens or personal profile data. Source code is not published here.
 
 ## Repository stats
 
