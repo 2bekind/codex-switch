@@ -59,8 +59,8 @@ Screenshots use demo accounts.
 ## Usage
 
 1. On Windows, download **Codex Switch.exe** (x64) or **Codex Switch x86.exe** and run it. On Mac, open the DMG and drag **Codex Switch** into **Applications**.
-2. Click **Добавить** (Add) and sign in to the account you want to save.
-3. Click **Переключить** (Switch) next to an account, then confirm the Codex restart. Finish running tasks before switching.
+2. Click **Add** and sign in to the account you want to save.
+3. Click **Switch** next to an account, then confirm the Codex restart. Finish running tasks before switching.
 4. Click the pencil to edit an account's name or note. Click the eye to hide its email.
 
 Click an avatar to view it. Click outside the image or press **Escape** to close it.
