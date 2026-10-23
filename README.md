@@ -12,6 +12,15 @@ Simple account switcher for Codex
 
 </div>
 
+## Support with USDT
+
+| Network | Address |
+| :--- | :--- |
+| TRON · TRC20 | `TB8TFbyv5XX5G7V4FBKsHGnHy3Me5JhxZx` |
+| TON | `UQBlSkFj9BwdzYuNnP_L-lozJmxAPYsazM7KSvDwB75V6fkK` |
+| Ethereum · ERC20 | `0x9ea7b6ddcf8f641ea27c27f3c36887bf432e146d` |
+| Solana · SPL | `HtFCGG9BRbwxxFT4bk8GnzPrskpRGVuKYzAA9oivayY3` |
+
 ## Preview
 
 <table>
