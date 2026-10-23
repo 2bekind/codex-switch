@@ -6,9 +6,9 @@
 
 Simple account switcher for Codex
 
-[![Latest release](https://img.shields.io/github/v/release/2bekind/codex-switch?style=flat-square&color=ffffff&labelColor=161616)](https://github.com/2bekind/codex-switch/releases/latest) ![Windows](https://img.shields.io/badge/Windows-10%20%2F%2011-ffffff?style=flat-square&labelColor=161616) ![Architecture](https://img.shields.io/badge/architecture-x64-ffffff?style=flat-square&labelColor=161616) [![Boosty](https://img.shields.io/badge/Boosty-support-F15F2C?style=flat-square&labelColor=161616)](https://boosty.to/swixhub)
+[![Latest release](https://img.shields.io/github/v/release/2bekind/codex-switch?style=flat-square&color=ffffff&labelColor=161616)](https://github.com/2bekind/codex-switch/releases/latest) ![Windows](https://img.shields.io/badge/Windows-10%20%2F%2011-ffffff?style=flat-square&labelColor=161616) ![Architecture](https://img.shields.io/badge/builds-x64%20%2B%20x86-ffffff?style=flat-square&labelColor=161616) [![Boosty](https://img.shields.io/badge/Boosty-support-F15F2C?style=flat-square&labelColor=161616)](https://boosty.to/swixhub)
 
-**[Download EXE](https://github.com/2bekind/codex-switch/raw/refs/heads/main/Codex%20Switch.exe)** · [Releases](https://github.com/2bekind/codex-switch/releases) · [Usage](#usage)
+**[Download x64](https://github.com/2bekind/codex-switch/releases/latest/download/Codex.Switch.exe)** · **[Download x86](https://github.com/2bekind/codex-switch/releases/latest/download/Codex.Switch.x86.exe)** · [Releases](https://github.com/2bekind/codex-switch/releases) · [Usage](#usage)
 
 </div>
 
@@ -40,10 +40,12 @@ Screenshots use demo accounts.
 - Smooth scrolling and language transitions.
 - Profile avatars and SF Pro when installed.
 - Interface icons from coolicons.
+- Settings for startup, notifications, appearance and account recovery.
+- Optional launch at Windows sign-in, including a quiet start in the tray.
 
 ## Usage
 
-1. Download **Codex Switch.exe** and run it. No installer is needed.
+1. Download **Codex Switch.exe** (x64, recommended) or **Codex Switch x86.exe** and run it. No installer is needed.
 2. Click **Добавить** (Add) and sign in to the account you want to save.
 3. Click **Переключить** (Switch) next to an account, then confirm the Codex restart. Finish running tasks before switching.
 4. Click the pencil to edit an account's name or note. Click the eye to hide its email.
@@ -52,9 +54,11 @@ Click an avatar to view it. Click outside the image or press **Escape** to close
 
 Closing the window sends Codex Switch to the system tray. Click its tray icon or launch the EXE again to reopen it. Right-click the tray icon and choose **Выйти** (Exit) to quit completely. Limits and notifications keep working in the tray.
 
-The current Codex account is saved on first launch. **Ctrl+R** refreshes account data and limits. **Вернуть предыдущий** restores the previous sign-in.
+The current Codex account is saved on first launch. **Ctrl+R** refreshes account data and limits. Open the gear at the bottom right for settings. **Other → Restore previous** restores the previous sign-in; **Data** opens the local data folder. **System** controls startup and notifications, and **Appearance** changes the theme.
 
 Requires Windows 10/11 x64, .NET Framework 4.8 and the Microsoft Store version of Codex signed in through ChatGPT. The interface supports Russian and English. Click the globe beside the app title to change the language. Click the moon or sun beside Accounts to change the theme. SF Pro falls back to Segoe UI when unavailable.
+
+Both x64 and x86 executables are tested on 64-bit Windows. The x86 download is an alternative build of the switcher; it does not add support for running Codex on 32-bit Windows. macOS and Linux builds are not available: the current app uses Windows WPF and DPAPI.
 
 ## Notifications
 
@@ -65,6 +69,8 @@ Codex Switch keeps running in the system tray when you close its window. Windows
 - A Plus or Pro subscription changing to Free.
 
 Events are confirmed with fresh server data. The end of a billing period alone does not trigger an expiry notification. Notification history persists across app restarts to prevent duplicates.
+
+Choose which notifications to receive in **Settings → System**, or turn them off entirely.
 
 ## Local data
 
