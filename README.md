@@ -58,7 +58,7 @@ The current Codex account is saved on first launch. **Ctrl+R** refreshes account
 
 Requires Windows 10/11 x64, .NET Framework 4.8 and the Microsoft Store version of Codex signed in through ChatGPT. The interface supports Russian and English. Click the globe beside the app title to change the language. Click the moon or sun beside Accounts to change the theme. SF Pro falls back to Segoe UI when unavailable.
 
-Both x64 and x86 executables are tested on 64-bit Windows. The x86 download is an alternative build of the switcher; it does not add support for running Codex on 32-bit Windows. macOS and Linux builds are not available: the current app uses Windows WPF and DPAPI.
+Both x64 and x86 executables are tested on 64-bit Windows. The x86 download is an alternative build of the switcher; it does not add support for running Codex on 32-bit Windows.
 
 ## Notifications
 
